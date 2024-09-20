@@ -1,0 +1,22 @@
+# build output
+._BuildLog.htm
+*.obj
+*.tlog
+*.metagen
+x64/Debug
+x64/Release
+Debug/*.cpp
+Debug/*.log
+Release/*.cpp
+Release/*.log
+# visual studio local files
+.vs
+*.vcxproj.user
+# .net artifacts
+# *.AssemblyAttributes.*
+# Easy68k intermediate files
+*.l68
+*.s68
+/lib/
+/FieaGameEngine/build
+/FieaGameEngine.test/build
